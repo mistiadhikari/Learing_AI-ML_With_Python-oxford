@@ -19,8 +19,31 @@ import numpy as np   #percentile
 # print(np.corrcoef(hours,marks2)) #negative correlation
 
  #covariance
-temp=np.array([20,30,35])
-icecream=np.array([200,250,300])
+# temp=np.array([20,30,35])
+# icecream=np.array([200,250,300])
 
-print(np.cov(temp,icecream)) #positive relation
+# print(np.cov(temp,icecream)) #positive relation
 
+#linear Algebra
+#matrixxx
+# a= np.array([
+#     [1,2],
+#     [3,4]
+
+# ])
+# b= np.array([
+#     [5,6],
+#     [7,8]
+# ])
+# print(a+b)
+# print(a*b)
+# print(a@b)
+# print(np.dot(a,b))
+# print(a.T)
+
+a= np.array([
+    [4,7],
+    [2,6]
+])
+print(np.linalg.inv(a)) #inverse
+print(np.linalg.det(a)) #determinant
